@@ -16,7 +16,7 @@ VEHICLE_CLASS_NAMES = {"car", "truck", "bus", "motorcycle", "bicycle", "person"}
 
 # Color map for class bounding boxes
 CLASS_COLORS = {
-    "car":        "#0000FF",
+    "car":        "#0000ff",
     "truck":      "#ff8800",
     "bus":        "#ffff00",
     "motorcycle": "#00ff00",
@@ -32,7 +32,7 @@ IMAGE_DIR = "_images"
 
 # Options: yolo26n, yolo26s, yolo26m, yolo26l, yolo26x 
 # 'n' (nano/fastest) to 'x' (xlarge/most accurate)
-MODEL_NAME = "yolo26n"
+MODEL_NAME = "yolo26m"
 
 # Auto-downloads on first run
 MODEL = YOLO(f"{MODEL_NAME}.pt")  
